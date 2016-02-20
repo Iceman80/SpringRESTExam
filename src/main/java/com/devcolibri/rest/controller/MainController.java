@@ -12,7 +12,7 @@ import java.util.GregorianCalendar;
 @RequestMapping(value = "/myservice")
 public class MainController {
 
-    @RequestMapping(value= "/{time}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
+    @RequestMapping(value= "/{time}", method = RequestMethod.GET)
     @ResponseBody
     public MyDataObject getMyData(@PathVariable long time) {
         return new MyDataObject(Calendar.getInstance(), "Это ответ метода GET!");

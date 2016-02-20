@@ -12,7 +12,7 @@
 <properties>
     <javax.servlet>3.0.1</javax.servlet>
     <spring.version>3.2.6.RELEASE</spring.version>
-    <jackson.version>2.7.0</jackson.version>
+    <jackson.version>2.6.3</jackson.version>
 </properties>
 
 <dependencies>

@@ -7,9 +7,9 @@
           <element id="module-output" name="SpringRESTExam" />
         </element>
         <element id="directory" name="lib">
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.7.0" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.7.0" />
-          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.7.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:2.6.3" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-annotations:2.6.0" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-core:2.6.3" />
           <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:3.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-beans:3.2.6.RELEASE" />
           <element id="library" level="project" name="Maven: org.springframework:spring-context:3.2.6.RELEASE" />

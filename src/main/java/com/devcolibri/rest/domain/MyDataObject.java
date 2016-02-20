@@ -15,13 +15,6 @@ public class MyDataObject {
     public MyDataObject() {
     }
 
-//    public MyDataObject(Long time, String message) {
-//        Calendar calendar = Calendar.getInstance();
-//        calendar.setTimeInMillis(time);
-//        this.time = calendar;
-//        this.message = message;
-//    }
-
     public Calendar getTime() {
         return time;
     }

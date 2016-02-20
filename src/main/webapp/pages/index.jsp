@@ -38,11 +38,11 @@
             dataType: 'json',
             async: true,
             success: function(result) {
-                    console.log('Время: ' + result.time
-                        + ', сообщенеи: ' + result.message);
+                    alert('Время: ' + result.time
+                        + ', сообщении: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
-                    console.log(jqXHR.status + ' ' + jqXHR.responseText);
+                    alert(jqXHR.status + ' ' + jqXHR.responseText);
             }
         });
     }
