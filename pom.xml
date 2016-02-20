@@ -12,9 +12,15 @@
 <properties>
     <javax.servlet>3.0.1</javax.servlet>
     <spring.version>3.2.6.RELEASE</spring.version>
+    <jackson.version>2.7.0</jackson.version>
 </properties>
 
 <dependencies>
+    <dependency>
+        <groupId>com.fasterxml.jackson.core</groupId>
+        <artifactId>jackson-databind</artifactId>
+        <version>${jackson.version}</version>
+    </dependency>
     <dependency>
         <groupId>org.springframework</groupId>
         <artifactId>spring-webmvc</artifactId>

@@ -6,7 +6,7 @@
 
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script type="text/javascript">
-    var prefix = '/devcolibri-rest/myservice';
+    var prefix = 'myservice';
 
     var RestGet = function() {
         $.ajax({
@@ -19,7 +19,7 @@
                         + ', сообщение: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
-                alert(jqXHR.status + ' ' + jqXHR.responseText);
+                    alert(jqXHR.status + ' ' + jqXHR.responseText);
             }
         });
     }
@@ -38,11 +38,11 @@
             dataType: 'json',
             async: true,
             success: function(result) {
-                alert('Время: ' + result.time
+                    console.log('Время: ' + result.time
                         + ', сообщенеи: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
-                alert(jqXHR.status + ' ' + jqXHR.responseText);
+                    console.log(jqXHR.status + ' ' + jqXHR.responseText);
             }
         });
     }
@@ -54,11 +54,11 @@
             dataType: 'json',
             async: true,
             success: function(result) {
-                alert('Время: ' + result.time
+                    alert('Время: ' + result.time
                         + ', сообщение: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
-                alert(jqXHR.status + ' ' + jqXHR.responseText);
+                    alert(jqXHR.status + ' ' + jqXHR.responseText);
             }
         });
     }
@@ -70,11 +70,11 @@
             dataType: 'json',
             async: true,
             success: function(result) {
-                alert('Время: ' + result.time
+                    alert('Время: ' + result.time
                         + ', сообщение: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
-                alert(jqXHR.status + ' ' + jqXHR.responseText);
+                    alert(jqXHR.status + ' ' + jqXHR.responseText);
             }
         });
     }

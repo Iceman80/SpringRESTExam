@@ -1,6 +1,7 @@
 package com.devcolibri.rest.controller;
 
 import com.devcolibri.rest.domain.MyDataObject;
+import org.springframework.http.MediaType;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 
@@ -11,7 +12,7 @@ import java.util.GregorianCalendar;
 @RequestMapping(value = "/myservice")
 public class MainController {
 
-    @RequestMapping(value= "/{time}", method = RequestMethod.GET)
+    @RequestMapping(value= "/{time}", method = RequestMethod.GET, produces = MediaType.APPLICATION_JSON_VALUE)
     @ResponseBody
     public MyDataObject getMyData(@PathVariable long time) {
         return new MyDataObject(Calendar.getInstance(), "Это ответ метода GET!");
