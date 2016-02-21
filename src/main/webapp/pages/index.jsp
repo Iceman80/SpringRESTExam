@@ -38,7 +38,9 @@
             dataType: 'json',
             async: true,
             success: function(result) {
-                    alert('Время: ' + result.time
+                var date = new Date();
+                date.setTime(result.time);
+                    alert('Дата и время: ' +date.toDateString() +' - '+ date.getHours()+':'+ date.getMinutes()
                         + ', сообщении: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
@@ -54,7 +56,9 @@
             dataType: 'json',
             async: true,
             success: function(result) {
-                    alert('Время: ' + result.time
+                var date = new Date();
+                date.setTime(result.time);
+                    alert('Дата и время: ' +date.toDateString() +' - '+ date.getHours()+':'+ date.getMinutes()
                         + ', сообщение: ' + result.message);
             },
             error: function(jqXHR, textStatus, errorThrown) {
